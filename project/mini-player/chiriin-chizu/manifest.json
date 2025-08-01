@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "国土地理院地図",
+  "description": "国土地理院の地図をポップアップで表示します。地図を動かすことも可能です。",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}

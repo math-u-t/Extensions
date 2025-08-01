@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YouTube 動画再生</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="popup-container">
+    <h1>YouTube 動画再生</h1>
+    <p>YouTubeのURLを入力して、動画を再生します。</p>
+    
+    <div class="input-group">
+      <input type="text" id="youtube-url" placeholder="YouTubeのURLを入力" />
+      <button id="embed-btn">動画を再生する</button>
+    </div>
+
+    <div id="embed-container">
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
